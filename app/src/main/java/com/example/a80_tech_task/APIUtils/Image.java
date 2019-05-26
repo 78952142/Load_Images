@@ -15,6 +15,7 @@ public class Image {
         this.imageKey = imageKey;
     }
 
+
     public String getLowQualityImagePath(){
         return baseUrl +SMALL_IAMGE_SIZE+imageKey;
 
